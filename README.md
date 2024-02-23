@@ -1,7 +1,5 @@
 # Bano_Qabil_2.0_Final_Project
 
-Python Project Overview
-
 Name : Muhammad Tuheed Ahmed
 Roll Number : 36820
 Email : tuheedahmed55@gmail.com
@@ -10,68 +8,54 @@ Project : Currency Converter App
 1. Muhammad Tuheed Ahmed
 2. Muhammad Hammad 
 3. Muhammad Mazz
-   
-Project overview,
-The Currency Converter App is an application designed to facilitate the conversion of various 
-currencies. The app fetches exchange rates and allows users to convert an amount from one currency to 
-another seamlessly.
 
-Key Features:
-1. Real-Time Exchange Rates:
-• The app uses the Currency Converter Library to fetch the exchange rates for different 
-currencies.
-2. GUI Interface:
-• The application provides a simple and intuitive interface using Tkinter, a standard GUI 
-toolkit for Python.
-3. User-Friendly Interface:
-• The app interface provides a straightforward form where users can input the amount, 
-select the source currency, and choose the target currency.
-4. Currency Selection:
-• . User can select the currency they want to convert using dropdown menu.
-5. Result Display:
-• The converted amount is displayed to the user, providing a clear and concise output.
-6. Error Handling:
-• The application handles various error gracefully, such as invalid input or failure to fetch 
-exchange rates.
+# Currency Converter App
 
-Usage:
-1. Users access the app.
-2. Input the amount to convert.
-3. Select the source and target currencies.
-4. Click the "Convert" button.
-5. The converted amount is displayed on the page.
-   
-Supported Currencies:
-• United State Dollar (USD)
-• Euro (EUR)
-• Indian Rupee (INR)
-• United Kingdom (GBP)
-• Newzeland Dollar (NZD)
-• Australian Dollar (AUD)
-• Japaness Yen (JPY)
-• Canadian Dollar (CAD)
-• Brazil (BRL)
-• Chiness Yuan (CNY)
-• Bulgaria (BGN)
-• Czech Republic (CZK)
-• Denmark (DKK)
-• Hong Kong Dollar (HKD)
-• Hungary (HUF)
-• Iceland (ISK)
-• Indonesia (IDR)
-• Korea (KRW)
-• Switzerland (CHF)
-• Malaysia (MYR)
-• Mexico (MXN)
+The Currency Converter App is a simple desktop application built using Python and Tkinter that allows users to convert between different currencies. With a user-friendly interface, this app provides quick and accurate currency conversion based on real-time exchange rates.
 
-Steps:
-1. Copy pip install currency converter from this URL: CurrencyConverter · PyPI
-2. Install this library.
-3. Run this code.
-   
-Notes:
-• Ensure that your computer has an active internet connection to fetch the latest exchange rates 
-from the website.
-• The application currently supports conversion between USD, EUR, and INR etc. You can modify 
-the code to include additional currencies if needed.
-• Feel free to customize the GUI or add additional features to suit your requirements
+## Features:
+
+- **Currency Conversion:** Convert between various currencies with ease.
+- **Real-Time Exchange Rates:** Fetches up-to-date exchange rates from a reliable source.
+- **Wide Currency Support:** Supports conversion between a wide range of currencies, including major world currencies and cryptocurrencies.
+- **Customization Options:** Customize the app by selecting favorite currencies or setting default currencies.
+- **Error Handling:** Gracefully handles errors such as invalid input and unsupported currencies to provide a smooth user experience.
+
+## Usage:
+
+1. **Input:** Enter the amount you want to convert in the entry box.
+2. **Currency Selection:** Choose the source and target currencies from the dropdown menus.
+3. **Conversion:** Click the "Enter" button to perform the conversion.
+4. **Result:** The converted amount will be displayed below the input fields.
+
+## Requirements:
+
+- Python 3.x
+- Tkinter library
+- currency_converter library
+
+
+1.Navigate to the project directory:
+cd currency-converter-app
+
+2.Install dependencies:
+pip install CurrencyConverter
+
+How to Run:
+1.Run the following command:
+   currency_converter_app
+2.The Currency Converter App window will open.
+3.Follow the instructions on the app to perform currency conversions.
+
+Contributing:
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+
+1.Fork the repository.
+2.Create a new branch (git checkout -b feature-branch).
+3.Make your changes and commit them (git commit -am 'Add new feature').
+4.Push to the branch (git push origin feature-branch).
+5.Create a new pull request.
+
+Contact:
+For any questions or suggestions, feel free to reach out to .
+This README file provides a comprehensive guide on the Currency Converter App, including its features, usage instructions, requirements, installation steps, contribution guidelines, licensing information, and contact details. You can customize it further based on your project's specific requirements and preferences.
